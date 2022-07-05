@@ -4,7 +4,7 @@
 *main - prints alphabet ten times
 *
 * Return: 0
-* /
+*/
 
 {
 	int l;
