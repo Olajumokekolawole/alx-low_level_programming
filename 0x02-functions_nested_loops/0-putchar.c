@@ -7,15 +7,15 @@
 * Return: 0
 */
 
-int main (void)
+int main(void)
 {
 	int n = 0;
-	char str[9] = "_putchar";
+	char str[8] = "_putchar";
 
-	while (n < 9)
+	while (n < 8)
 	{
 		_putchar(str[n]);
-		n +=1;
+		n += 1;
 	}
 	_putchar('\n');
 	return (0);
