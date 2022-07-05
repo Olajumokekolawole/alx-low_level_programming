@@ -8,12 +8,11 @@
 */
 
 {
-	char l = 'a';
+	int a;
 
-	while (l <= 'z')
+	for (a = 97; a <= 122; a++)
 	{
-		_putchar(l);
-		letter += 1;
+		_putchar(a);
 	}
 	_putchar ('\n');
 	return (0);
