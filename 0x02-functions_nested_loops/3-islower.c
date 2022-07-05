@@ -2,13 +2,17 @@
 
 /**
 * _islower - returns 1 if char is lowercase
-* @c: character to be checked if lowercase, type int
+* @c: character to be checked if lowercase
 *Return: 1 if lowercase, 0 otherwise
 */
 int_islower(int c)
 	{
-		if (c >=97 && c <=122)
-		return (1);
+		if (c >= 'a' && c <= 'z')
+		{
+			return (1);
+		}
 		else
-		return (0);
-	}
+		{
+			return (0)
+		}
+	}	
