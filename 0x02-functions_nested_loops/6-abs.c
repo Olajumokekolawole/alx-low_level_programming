@@ -2,7 +2,6 @@
 #include <stdio.h>
 
 /**
-*
 * _abs - function that computes the absolute value of an integer
 *
 * @c:  is the int that we use for the argument of the function
@@ -11,9 +10,7 @@
 */
 
 int _abs(int c)
-
 	{
-
 		if (c > 0 || c == 0)
 		{
 		return (c);
