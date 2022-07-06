@@ -4,24 +4,19 @@
 /**
 * _abs - function that computes the absolute value of an integer
 *
-* @c:  is the int that will use for the argument of the function
+* @n:  is the int that we use for the argument of the function
 *
 * Return: 0
 */
 int print_last_digit(int n)
 {
-	int a;
+	n %= 10;
 
 	if (n < 0)
-		n = -n;
+		n *= -1;
 
-	a = n % 10;
+	_putchar(n + '0');
 
-	if (a < 0)
-		a = -a;
-
-	_putchar(a + '0');
-
-	return (a);
+	return (n);
 }
 
