@@ -5,7 +5,7 @@
 * @n: n -  Variable
 * Return: Always 0
 */
-void print_number(int n)
+void print_number(int n);
 {
 	unsigned int z;
 	int m, b;
