@@ -1,5 +1,4 @@
-#include <stdio.h>#:wq
-
+#include <stdio.h>
 
 /**
 * main - causes an infinite loop
