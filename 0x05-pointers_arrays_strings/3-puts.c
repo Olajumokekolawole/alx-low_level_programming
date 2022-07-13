@@ -2,16 +2,15 @@
 
 /**
 * _puts -> this is a function that prints a string
-* @str: pointer to a string to print
-*
-* Return: 0
+* @str: a pointer to a function
 */
 
-int main(void)
+void _puts(char *str)
 {
-	char *str;
 
-	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-	_puts(str);
-	return (0);
+	for (; *str != '\0'; str++)
+	{
+		_putchar(*str);
+	}
+	_putchar('\n');
 }
