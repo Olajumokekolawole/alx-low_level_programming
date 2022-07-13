@@ -7,12 +7,11 @@
 * Return: 0
 */
 
-void _puts(char *str)
+int main(void)
 {
-	if (str)
-	{
-	while (*str)
-	_putchar(*str++);
-	_putchar('\n');
-	}
+	char *str;
+
+	str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
+	_puts(str);
+	return (0);
 }
