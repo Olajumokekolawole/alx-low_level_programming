@@ -1,27 +1,30 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* char *_strncat - concatenates two strings
-* 
-*  Return: Always 0.
+*
+* _strcat - function to concatenate two strings
+*@dest: char pointer
+*@src: char pointer
+*@n: int
+* Return: dest
+*
 */
 
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
 {
-	char s1[98] = "I'm ";
-	char s2[] = "bold!\n";
-	char *ptr;
+	int a = 0;
+	int b = 0;
 
-	printf("%s\n", s1);
-	printf("%s", s2);
-	ptr = _strncat(s1, s2, 1);
-	printf("%s\n", s1);
-	printf("%s", s2);
-	printf("%s\n", ptr);
-	ptr = _strncat(s1, s2, 1024);
-	printf("%s", s1);
-	printf("%s", s2);
-	printf("%s", ptr);
-	return (0);
+	while (dest[a] != '\0')
+	{
+		a++;
+	}
+
+	while (src[b] != '\0')
+	{
+		dest[a + b] = src[b];
+		b++;
+	}
+	dest[a + b] = '\0';
+	return (dest);
 }
