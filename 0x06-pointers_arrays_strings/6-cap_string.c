@@ -1,11 +1,12 @@
 #include "main.h"
 
 /**
-* cap_string -  convert all
-* @s: char pointer
+* cap_string - function to capitalize strings
+* @s: char ptr
 * Return: int
 */
-char *cap_string(char *s)
+
+char *cap_string(char *)
 {
 	int i = 0;
 	int j;
@@ -33,4 +34,4 @@ char *cap_string(char *s)
 		s[0] = s[0] - 32;
 	}
 	return (s);
-}/
+}
