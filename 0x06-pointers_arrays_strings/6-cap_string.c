@@ -3,10 +3,10 @@
 /**
 * cap_string - function to capitalize strings
 * @s: char ptr
-* Return: int
+* Return: char
 */
 
-char *cap_string(char *)
+char *cap_string(char *s)
 {
 	int i = 0;
 	int j;
