@@ -1,20 +1,23 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
-* char *_strncpy - compares two strings
-*
-* Return: Always 0.
+* _strncpy -  function to copy a string
+* @dest: char ptr
+* @src: char ptr
+* @n: int
+* Return: char
 */
-
-int _strcmp(char *s1, char *s2)
+char *_strncpy(char *dest, char *src, int n)
 {
-	char s1[] = "My ";
-	char s2[] = "Home";
+	int a = 0;
 
-	printf("%d\n", _strcmp(s1, s2));
-	printf("%d\n", _strcmp(s2, s1));
-	printf("%d\n", _strcmp(s1, s1));
-
-	return (0);
+	for (a = 0; (a < n && src[a] != 0); a++)
+	{
+		dest[a] = src[a];
+	}
+	for (; a < n; a++)
+	{
+		dest[a] = '\0';
+	}
+	return (dest);
 }
