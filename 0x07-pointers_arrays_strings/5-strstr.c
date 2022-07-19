@@ -5,7 +5,7 @@
 * @haystack: string to be searched.
 * @needle: substring to be located.
 *
-* Return: If substring is located - a pointer to the beginning locate substring.
+* Return: If substring is located - a pointer to the beginning locate * substring.
 * If substring is not located - NULL.
 */
 
@@ -22,7 +22,8 @@ index = 0;
 
 if (haystack[index] == needle[index])
 {
-do {
+do
+{
 if (needle[index + 1] == '\0')
 return (haystack);
 
