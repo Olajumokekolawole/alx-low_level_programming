@@ -29,7 +29,7 @@ int strlen_no_wilds(char *str)
 }
 
 /**
-* iterate_wild - Iterates through string located at wildcard until it points to a non-wildcard character.
+* iterate_wild - Iterates through string located at wildcard until it * points to a non-wildcard character.
 * @wildstr: string to be iterated through.
 */
 
@@ -43,11 +43,11 @@ void iterate_wild(char **wildstr)
 }
 
 /**
-* postfix_match - Checks if string str matches the postfix of another string potentially containing wildcards.
+* postfix_match - Checks if string str matches the postfix of another * string potentially containing wildcards.
 * @str: string to be matched.
 * @postfix: postfix.
 *
-* Return: If str and postfix are identical - pointer to the null byte located at the end of postfix.
+* Return: If str and postfix are identical - pointer to the null byte * located at the end of postfix.
 * Otherwise - pointer to the first unmatched character in postfix.
 */
 
