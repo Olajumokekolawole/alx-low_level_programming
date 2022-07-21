@@ -47,7 +47,7 @@ void iterate_wild(char **wildstr)
 * @str: string to be matched.
 * @postfix: postfix.
 *
-* Return: If str and postfix are identical - pointer to the null byte 
+* Return: If str and postfix are identical - pointer to the null byte
 * Otherwise - pointer to the first unmatched character in postfix.
 */
 
