@@ -1,4 +1,3 @@
-(19 sloc)  324 Bytes
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
