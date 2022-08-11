@@ -4,8 +4,8 @@
 #include "lists.h"
 
 /**
- * list_len - function that returns number of elements in a linked list
- * @h: ptr
+ * list_len - function that returns the number of elements in a linked list
+ * @h: pointer
  * Return: int count of nodes
  */
 int list_len(const list_t *h)
