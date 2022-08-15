@@ -12,6 +12,7 @@
  *
  * Description: singly linked list node structure
  */
+
 typedef struct listint_s
 {
 	int n;
@@ -34,3 +35,5 @@ size_t print_listint_safe(const listint_t *head);
 size_t free_listint_safe(listint_t **h);
 listint_t *find_listint_loop(listint_t *head);
 int _putchar(char);
+
+#endif
