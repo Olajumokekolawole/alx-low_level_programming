@@ -53,7 +53,6 @@ size_t looped_listint_len(const listint_t *head)
 	return (0);
 }
 
-
 /**
  * print_listint_safe - Prints listint_t list safely.
  * @head: pointer to head of listint_t list.
