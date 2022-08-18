@@ -1,5 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include<stdio.h>
+#include<string.h>
+#include<limits.h>
+#define MAX_COUNT (sizeof(unsigned long int) * 8)
+
 
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
